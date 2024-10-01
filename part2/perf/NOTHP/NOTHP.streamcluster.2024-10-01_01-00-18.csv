@@ -1,0 +1,5 @@
+# started on Tue Oct  1 01:00:18 2024
+
+0,,cpu_core/dTLB-load-misses/,443894873938,100.00,,
+0,,cpu_core/iTLB-load-misses/,443894871626,100.00,,
+0,,cpu_core/cache-misses/,443894865645,100.00,,

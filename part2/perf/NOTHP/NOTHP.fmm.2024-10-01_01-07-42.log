@@ -1,0 +1,39 @@
+[PARSEC] Benchmarks to run:  splash2x.fmm
+
+[PARSEC] [========== Running benchmark splash2x.fmm [1] ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'native'.
+input.template
+[PARSEC] Running 'time /home/ece522/ece522-mp/hugepage/parsec-3.0/ext/splash2x/apps/fmm/inst/amd64-linux.gcc-pthreads/bin/run.sh 1 native':
+[PARSEC] [---------- Beginning of output ----------]
+Generating input file input_1...
+Running /home/ece522/ece522-mp/hugepage/parsec-3.0/ext/splash2x/apps/fmm/inst/amd64-linux.gcc-pthreads/bin/fmm 1 < input_1:
+Creating a two cluster, non uniform distribution for 4194304 particles
+Starting FMM with 1 processor
+Finished FMM
+                                   PROCESS STATISTICS
+             Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
+ Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
+    0     43441443     2033343      992539      626047     8762183    29509490           6      789813      728006
+
+                                   TIMING INFORMATION
+Start time                        : 1727762863196813
+Initialization finish time        : 1727762896895211
+Overall finish time               : 1727762940336653
+Total time with initialization    :         77139840
+Total time without initialization :         43441443
+
+Total time for steps 3 to 5 :     43441443
+
+
+real	1m17.234s
+user	1m13.586s
+sys	0m3.395s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC]
+[PARSEC] BIBLIOGRAPHY
+[PARSEC]
+[PARSEC] [1] Woo et al. The SPLASH-2 Programs: Characterization and Methodological Considerations. ISCA, 1995.
+[PARSEC]
+[PARSEC] Done.
